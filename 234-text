@@ -1,0 +1,13 @@
+print('hello world')
+print('''
+ hellow
+ world
+ ''')
+print("""
+      hi
+      man
+      """)
+print("'1'+'1'", '1'+'1')
+print('hellow world'*100)
+print("len('hellow world'*100)", len('hellow world'*100))
+print("'hellow world'.replace('hellow', 'hi'", 'hellow world'.replace('hellow', 'hi'))

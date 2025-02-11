@@ -1,0 +1,18 @@
+print(-1)
+print(0)
+print(1) 
+print(1.1) # float
+print('1+1', 1+1)
+print('2-1', 2-1)
+print('2*3', 2*3)
+
+import math
+print('math.sqrt(9)',math.sqrt(9))
+print('math.pow(6,2)',math.pow(6,2))
+
+import random
+print('random.random()', random.random())
+random_number = random.getrandbits(64)
+if random.choice([True, False]):
+   random_number = -random_number
+print(random_number)

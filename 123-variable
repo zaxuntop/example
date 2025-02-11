@@ -1,0 +1,3 @@
+name = 'maru'
+message ='hi, '+name+' --- bye, '+name+'.'
+print(message)
